@@ -1,0 +1,54 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Logs ###
+*.log
+logs/
+
+### Local config (contains passwords, never commit) ###
+exam-admin/src/main/resources/application-dev.yml
+exam-admin/src/main/resources/application-local.yml
+
+### Node / frontend ###
+frontend-mini/node_modules/
+frontend-mini/dist/
+frontend-mini/.vite/
+npm-debug.log*
+
+### JMeter result ###
+jmeter/result/
+
+### OS ###
+.DS_Store
+Thumbs.db
